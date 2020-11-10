@@ -1,0 +1,13 @@
+if you have only one file you want to disable prop-type validation you can use:
+
+/* eslint react/prop-types: 0 */
+in cases where you have multiple files you can add to your .eslintrc file in your root directory a rule to disable prop-type validation:
+
+{
+ "plugins": [
+     "react"
+  ],
+  "rules": {
+    "react/prop-types": 0
+  }
+}
